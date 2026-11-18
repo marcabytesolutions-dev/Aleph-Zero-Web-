@@ -1,0 +1,82 @@
+[
+  {
+    "id": "6511",
+    "category": "calzado",
+    "name": "Reebok Cityride Black White",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/reebok-cityride-black-white-6511",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7471/image_1024/%5BReebok%20FFCO127923-30562MWB-42%5D%20Reebok%20Cityride%20Black%20White%20%28EU%2042-%2027CM%29?unique=b186236",
+    "observedAt": "2026-11-14"
+  },
+  {
+    "id": "6347",
+    "category": "calzado",
+    "name": "Reebok Forte Blanco Rosado",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/reebok-ffco151366-30228wwqt-reebok-forte-blanco-rosado-6347",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7275/image_1024/%5BReebok%20ffco151366%20-%2030228WWQT%5D%20Reebok%20Forte%20Blanco%20Rosado?unique=f941567",
+    "observedAt": "2026-11-14"
+  },
+  {
+    "id": "6510",
+    "category": "calzado",
+    "name": "Puma Voltaic Evo Cage Fade",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/puma-313028-02-puma-voltaic-evo-cage-fade-6510",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7449/image_1024/%5BPuma%20313028-02%5D%20Puma%20Voltaic%20Evo%20Cage%20Fade?unique=c687be7",
+    "observedAt": "2026-11-14"
+  },
+  {
+    "id": "6508",
+    "category": "calzado",
+    "name": "Puma Softride Enzo 5 Metallic",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/puma-310473-02-puma-softride-enzo-5-metallic-6508",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7447/image_1024/%5BPuma%20310473-02%5D%20Puma%20Softride%20Enzo%205%20Metallic?unique=13b193c",
+    "observedAt": "2026-11-14"
+  },
+  {
+    "id": "3351",
+    "category": "disenador",
+    "name": "Xerjoff Naxos EDP 100 ML",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/xerjoff-naxos-edp-100-ml-3351",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/3699/image_1024/Xerjoff%20Naxos%20EDP%20100%20ML?unique=6fbf802",
+    "observedAt": "2026-11-14"
+  },
+  {
+    "id": "3656",
+    "category": "disenador",
+    "name": "Versace Bright Crystal PARFUM 90 ML",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/versace-bright-crystal-parfum-90-ml-3656",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/4078/image_1024/Versace%20Bright%20Crystal%20PARFUM%2090%20ML?unique=a65fcf1",
+    "observedAt": "2026-11-14"
+  },
+  {
+    "id": "2793",
+    "category": "disenador",
+    "name": "Valentino Uomo Born In Roma Intense EDP 100ML",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/valentino-uomo-born-in-roma-intense-edp-100ml-2793",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/3035/image_1024/Valentino%20Uomo%20Born%20In%20Roma%20Intense%20EDP%20100ML?unique=d671a16",
+    "observedAt": "2026-11-14"
+  },
+  {
+    "id": "671",
+    "category": "arabes",
+    "name": "AFNAN 9PM EDP 100 ML",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-arabes-6/afnan-9pm-edp-100-ml-671",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/831/image_1024/AFNAN%209PM%20EDP%20100%20ML?unique=b21765e",
+    "observedAt": "2026-11-14"
+  },
+  {
+    "id": "3643",
+    "category": "arabes",
+    "name": "MAISON ALHAMBRA Salvo 100 ML EDP",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-arabes-6/maison-alhambra-salvo-100-ml-edp-3643",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/4065/image_1024/MAISON%20ALHAMBRA%20Salvo%20100%20ML%20EDP?unique=26011e5",
+    "observedAt": "2026-11-14"
+  },
+  {
+    "id": "3301",
+    "category": "arabes",
+    "name": "Lattafa Vurv Profumo Intensity Pour Homme EDP 100 ML",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-arabes-6/lattafa-vurv-profumo-intensity-pour-homme-edp-100-ml-3301",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/3608/image_1024/Lattafa%20Vurv%20Profumo%20Intensity%20Pour%20Homme%20EDP%20100%20ML?unique=eea9259",
+    "observedAt": "2026-11-14"
+  }
+]

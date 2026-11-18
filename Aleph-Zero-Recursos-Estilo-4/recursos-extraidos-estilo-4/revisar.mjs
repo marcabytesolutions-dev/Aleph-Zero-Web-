@@ -1,0 +1,10 @@
+import {chromium} from '../codigo/node_modules/playwright/index.mjs';
+import {writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const page=await browser.newPage({viewport:{width:1200,height:950}});
+await page.goto(new URL('./VER-RECURSOS.html',import.meta.url).href);
+await page.locator('img').evaluateAll(imgs=>Promise.all(imgs.map(i=>i.decode())));
+await page.locator('section.iconos').screenshot({path:fileURLToPath(new URL('./revision-iconos.png',import.meta.url))});
+await page.locator('section.recortes').screenshot({path:fileURLToPath(new URL('./revision-recortes.png',import.meta.url))});
+await browser.close();

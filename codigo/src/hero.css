@@ -1,0 +1,307 @@
+/* Portada editorial: dos categorías protagonistas, ambas son enlaces completos. */
+.choice-hero {
+  padding-block: 38px 0;
+}
+
+.choice-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.choice-heading .eyebrow {
+  font-size: 10px;
+  letter-spacing: 2.1px;
+  margin-bottom: 16px;
+}
+
+.choice-heading h1 {
+  font-family: var(--serif);
+  font-size: clamp(46px, 4.4vw, 66px);
+  line-height: 1.04;
+  letter-spacing: -2.5px;
+}
+
+.choice-heading h1 em {
+  color: var(--wine);
+  font-weight: 400;
+}
+
+.choice-intro {
+  padding-bottom: 4px;
+  padding-right: 16px;
+}
+
+.choice-intro p {
+  font-family: var(--serif);
+  font-size: 27px;
+  line-height: 1.3;
+  letter-spacing: -.5px;
+}
+
+.choice-intro > span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.hero-categories {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.hero-category {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: clamp(460px, 37vw, 560px);
+  padding: 27px 32px 30px;
+  overflow: hidden;
+  color: #30372e;
+  background: #e6e9e1;
+}
+
+.hero-category::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 68%;
+  aspect-ratio: 1;
+  border: 1px solid #b5bfaa66;
+  border-radius: 50%;
+  left: 16%;
+  top: 2%;
+  background: radial-gradient(circle, #f6f6ef 0%, #f2f3eb77 48%, transparent 72%);
+  pointer-events: none;
+}
+
+.hero-fragancias {
+  background: #eedee3;
+  color: #68243d;
+}
+
+.hero-fragancias::before {
+  border-color: #ba909f55;
+  background: radial-gradient(circle, #fff7f7 0%, #f9edf177 48%, transparent 72%);
+}
+
+.hero-category-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-category-top > span {
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1.7px;
+  line-height: 1.6;
+}
+
+.hero-category-top i {
+  font-style: normal;
+  margin-inline: 10px;
+  opacity: .55;
+}
+
+.hero-category-top > .icon {
+  width: 23px;
+  height: 23px;
+}
+
+.hero-art {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  margin: 5px 0 0;
+}
+
+.hero-art .hero-category-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  aspect-ratio: auto;
+  overflow: visible;
+  background: transparent;
+  mix-blend-mode: multiply;
+}
+
+.hero-art img {
+  object-fit: contain;
+  transition: transform .45s ease;
+}
+
+.hero-calzado .hero-art img {
+  transform: scale(1.42);
+}
+
+.hero-fragancias .hero-art img {
+  transform: scale(.98);
+}
+
+.hero-panel-footer {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 15px;
+  padding-top: 12px;
+}
+
+.hero-panel-footer h2 {
+  font-family: var(--serif);
+  font-size: clamp(42px, 4vw, 59px);
+  letter-spacing: -1.8px;
+  line-height: 1.05;
+}
+
+.hero-panel-footer p {
+  font-size: 11px;
+  line-height: 1.7;
+  margin-top: 11px;
+}
+
+.hero-category-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  padding-bottom: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.hero-category-cta > .icon {
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  transition: color .2s, background-color .2s;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .hero-calzado:hover .hero-art img { transform: scale(1.48); }
+  .hero-fragancias:hover .hero-art img { transform: scale(1.03); }
+}
+
+.hero-category:hover .hero-category-cta > .icon,
+.hero-category:focus-visible .hero-category-cta > .icon {
+  color: white;
+  background: var(--wine);
+  border-color: var(--wine);
+}
+
+.hero-category:focus-visible {
+  outline-offset: -7px;
+  outline-width: 3px;
+}
+
+.hero-collection-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-block: 23px 28px;
+}
+
+.hero-city {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.hero-city .icon { width: 15px; height: 15px; }
+.hero-city i { font-style: normal; margin-inline: 3px; }
+
+.hero-collections {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 11px;
+}
+
+.hero-collections > span { color: var(--muted); font-size: 10px; }
+.hero-collections a { display: inline-flex; align-items: center; gap: 8px; min-height: 30px; }
+.hero-collections a:hover { color: var(--wine); text-decoration: underline; text-underline-offset: 4px; }
+.hero-collections .icon { width: 13px; height: 13px; }
+
+/* La selección sigue a las categorías de portada sin repetir los accesos. */
+.benefits + .catalog-preview { padding-top: 57px; }
+
+@media (min-width: 1600px) {
+  .choice-hero { max-width: 1480px; }
+  .hero-category { height: 580px; }
+}
+
+@media (max-width: 1100px) {
+  .choice-hero { padding-top: 30px; }
+  .choice-heading h1 { font-size: 53px; }
+  .choice-intro p { font-size: 24px; }
+  .hero-category { height: 470px; padding: 24px; }
+  .hero-panel-footer { align-items: flex-start; flex-direction: column; gap: 17px; }
+  .hero-panel-footer h2 { font-size: 46px; }
+  .hero-category-cta { padding: 0; gap: 15px; }
+  .hero-category-cta > .icon { width: 29px; height: 29px; padding: 6px; }
+  .hero-panel-footer p { margin-top: 8px; font-size: 11px; }
+  .hero-calzado .hero-art img { transform: scale(1.4); }
+  .hero-category::before { top: 5%; width: 80%; left: 10%; }
+  .hero-collections { gap: 18px; }
+  .hero-collections > span { display: none; }
+}
+
+@media (max-width: 767px) {
+  .choice-hero { padding-top: 25px; }
+  .choice-heading { display: block; margin-bottom: 25px; }
+  .choice-heading .eyebrow { font-size: 8px; letter-spacing: 1.3px; margin-bottom: 13px; }
+  .choice-heading h1 { font-size: clamp(36px, 8.9vw, 54px); letter-spacing: -1.6px; line-height: 1.06; }
+  .choice-intro { padding: 0; margin-top: 15px; }
+  .choice-intro p { display: none; }
+  .choice-intro > span { font-size: 12px; margin: 0; }
+  .hero-categories { gap: 12px; }
+  .hero-category { height: 320px; padding: 16px 14px 19px; }
+  .hero-category-top > span { font-size: 7px; letter-spacing: .7px; }
+  .hero-category-top i { margin-inline: 3px; }
+  .hero-category-top > .icon { display: none; }
+  .hero-category::before { width: 110%; left: -5%; top: 11%; }
+  .hero-art { margin-top: 0; }
+  .hero-calzado .hero-art img { transform: scale(1.09); }
+  .hero-fragancias .hero-art img { transform: scale(.94); }
+  .hero-panel-footer { gap: 15px; padding-top: 4px; }
+  .hero-panel-footer h2 { font-size: clamp(24px, 6.8vw, 36px); letter-spacing: -.8px; }
+  .hero-panel-footer p { display: none; }
+  .hero-category-cta { width: 100%; justify-content: space-between; font-size: 10px; gap: 5px; }
+  .hero-category-cta > .icon { width: 24px; height: 24px; padding: 5px; }
+  .hero-collection-footer { padding-block: 18px 21px; gap: 10px; }
+  .hero-city { font-size: 9px; gap: 5px; }
+  .hero-city .icon { width: 13px; height: 13px; }
+  .hero-collections { justify-content: space-between; gap: 22px; width: 100%; font-size: 11px; }
+  .hero-collections a { min-height: 36px; gap: 7px; }
+  .hero-collections .icon { width: 12px; height: 12px; }
+  .benefits + .catalog-preview { padding-top: 36px; }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-category { height: 400px; padding: 20px; }
+  .hero-category-top > span { font-size: 8px; }
+  .hero-panel-footer h2 { font-size: 39px; }
+  .hero-category-cta { font-size: 11px; }
+  .hero-category-cta > .icon { width: 29px; height: 29px; padding: 6px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-art img, .hero-category-cta > .icon { transition: none; }
+}

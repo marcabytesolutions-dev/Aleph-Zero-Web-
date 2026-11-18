@@ -1,0 +1,257 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\HP\\OneDrive\\Desktop\\FREELANCE JOBS\\alephzero\\Pagina Web\\codigo\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.premium.config.js"
+    ],
+    "configFile": "C:\\Users\\HP\\OneDrive\\Desktop\\FREELANCE JOBS\\alephzero\\Pagina Web\\codigo\\playwright.premium.config.js",
+    "rootDir": "C:/Users/HP/OneDrive/Desktop/FREELANCE JOBS/alephzero/Pagina Web/codigo/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/HP/OneDrive/Desktop/FREELANCE JOBS/alephzero/Pagina Web/codigo/docs/checks/premium-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/HP/OneDrive/Desktop/FREELANCE JOBS/alephzero/Pagina Web/codigo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "premium.spec.js"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\HP\\OneDrive\\Desktop\\FREELANCE JOBS\\alephzero\\Pagina Web\\codigo\\docs\\checks\\premium-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\HP\\OneDrive\\Desktop\\FREELANCE JOBS\\alephzero\\Pagina Web\\codigo\\tests",
+        "snapshotDir": "C:\\Users\\HP\\OneDrive\\Desktop\\FREELANCE JOBS\\alephzero\\Pagina Web\\codigo\\tests",
+        "testIgnore": [],
+        "testMatch": "premium.spec.js",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:4188",
+          "channel": "msedge",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/checks/premium-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host localhost --port 4188 --strictPort",
+      "url": "http://localhost:4188",
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "premium.spec.js",
+      "file": "premium.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "rutas, imágenes y diseño responsive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4412,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T16:26:57.740Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "394eb566a87dc7306254-323f29520b6b8fce7b5e",
+          "file": "premium.spec.js",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "filtros, búsqueda, ordenación y menú móvil",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1221,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T16:27:02.644Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "394eb566a87dc7306254-2dce36b34fa8d8c39aa1",
+          "file": "premium.spec.js",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "variantes, límite de stock, persistencia y checkout sin envío real",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3340,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T16:27:03.880Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "394eb566a87dc7306254-6961598ea1ef469fb66d",
+          "file": "premium.spec.js",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "versión de doble clic funciona sin servidor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 469,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-18T16:27:07.233Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "394eb566a87dc7306254-120f830aa338897401b8",
+          "file": "premium.spec.js",
+          "line": 13,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-18T16:26:56.251Z",
+    "duration": 12036.425,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

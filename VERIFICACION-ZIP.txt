@@ -1,0 +1,4 @@
+ZIP comprobado: 109 archivos; todos coinciden con los originales mediante SHA-256.
+Archivo: Aleph-Zero-web-completa.zip
+SHA-256: B71E5508816528D5DA4282C3461F4D743875AF2DC643485F09D5854FA2BDFC89
+
