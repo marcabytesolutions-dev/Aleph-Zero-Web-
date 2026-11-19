@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {cleanCart,cartLines,total,orderMessage,shop,orderTotal} from '../src/commerce.js';
+import {cleanCart,cartLines,total,orderMessage,shop,orderTotal} from '../src/lib/commerce.js';
 test('descarta stock agotado y datos inválidos; limita duplicados',()=>{
  const valid={productId:'6511',variantId:'6511-2',quantity:3};
  assert.deepEqual(cleanCart([null,{...valid,quantity:-1},{...valid,variantId:'6511-1'},valid,valid]),[{...valid,quantity:5}]);

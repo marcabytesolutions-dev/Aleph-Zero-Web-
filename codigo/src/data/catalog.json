@@ -1,0 +1,667 @@
+[
+  {
+    "id": "6511",
+    "category": "calzado",
+    "name": "Cityride Black White",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/reebok-cityride-black-white-6511",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7471/image_1920?unique=b186236",
+    "observedAt": "2026-11-18",
+    "brand": "Reebok",
+    "sourceName": "Reebok Cityride Black White",
+    "image": "/assets/products/product-6511.webp",
+    "variants": [
+      {
+        "id": "6511-1",
+        "reference": "Reebok FFCO127923-30562MWB/42",
+        "size": "42",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 42/ 27CM",
+        "color": "Blanco / negro",
+        "volume": null,
+        "concentration": null,
+        "price": 70,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/OutOfStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/reebok-cityride-black-white-6511?attribute_values=149,567"
+      },
+      {
+        "id": "6511-2",
+        "reference": "Reebok FFCO127923-30562MWB/45.5",
+        "size": "45.5",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 45.5/ 30CM",
+        "color": "Blanco / negro",
+        "volume": null,
+        "concentration": null,
+        "price": 70,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/reebok-cityride-black-white-6511?attribute_values=149,748"
+      }
+    ]
+  },
+  {
+    "id": "6349",
+    "category": "calzado",
+    "name": "Carch Black White",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/puma-402679-04-puma-carch-black-white-6349",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7283/image_1920?unique=44f3596",
+    "observedAt": "2026-11-18",
+    "brand": "Puma",
+    "sourceName": "Puma Carch Black White",
+    "image": "/assets/products/product-6349.webp",
+    "variants": [
+      {
+        "id": "6349-1",
+        "reference": "Puma 402679-04",
+        "size": "47",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 47/ 31CM",
+        "color": "Negro / blanco",
+        "volume": null,
+        "concentration": null,
+        "price": 80,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/puma-402679-04-puma-carch-black-white-6349?attribute_values=153,700"
+      }
+    ]
+  },
+  {
+    "id": "6503",
+    "category": "calzado",
+    "name": "Zoom Vomero Roam Black Light Silver Jade Horizon",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/nike-fv2295-001-nike-zoom-vomero-roam-black-light-silver-jade-horizon-6503",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7442/image_1920?unique=54e1b07",
+    "observedAt": "2026-11-18",
+    "brand": "Nike",
+    "sourceName": "Nike Zoom Vomero Roam Black Light Silver Jade Horizon",
+    "image": "/assets/products/product-6503.webp",
+    "variants": [
+      {
+        "id": "6503-1",
+        "reference": "Nike FV2295-001",
+        "size": "39",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 39/ 24.5CM",
+        "color": "Negro / plata / jade",
+        "volume": null,
+        "concentration": null,
+        "price": 100,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/nike-fv2295-001-nike-zoom-vomero-roam-black-light-silver-jade-horizon-6503?attribute_values=151,557"
+      }
+    ]
+  },
+  {
+    "id": "6483",
+    "category": "calzado",
+    "name": "Handball Spezial Core Black Carbon Gold Metallic",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/adidas-js3868-adidas-handball-spezial-core-black-carbon-gold-metallic-6483",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7422/image_1920?unique=a4c6ee1",
+    "observedAt": "2026-11-18",
+    "brand": "Adidas",
+    "sourceName": "Adidas Handball Spezial Core Black Carbon Gold Metallic",
+    "image": "/assets/products/product-6483.webp",
+    "variants": [
+      {
+        "id": "6483-1",
+        "reference": "Adidas JS3868",
+        "size": "42.5",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 42.5/ 27CM",
+        "color": "Negro / carbón / dorado",
+        "volume": null,
+        "concentration": null,
+        "price": 80,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/OutOfStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/adidas-js3868-adidas-handball-spezial-core-black-carbon-gold-metallic-6483?attribute_values=150,645"
+      }
+    ]
+  },
+  {
+    "id": "3564",
+    "category": "calzado",
+    "name": "Blazer Low 77 Jumbo",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/nike-blazer-low-77-jumbo-3564",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/4300/image_1920?unique=9f09787",
+    "observedAt": "2026-11-18",
+    "brand": "Nike",
+    "sourceName": "Nike Blazer Low 77 Jumbo",
+    "image": "/assets/products/product-3564.webp",
+    "variants": [
+      {
+        "id": "3564-1",
+        "reference": "Nike DQ1470-101/39",
+        "size": "39",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 39/ 25CM",
+        "color": "Blanco / negro",
+        "volume": null,
+        "concentration": null,
+        "price": 90,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/nike-blazer-low-77-jumbo-3564?attribute_values=151,558"
+      },
+      {
+        "id": "3564-2",
+        "reference": "Nike DQ1470-101/40.5",
+        "size": "40.5",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 40.5/ 26CM",
+        "color": "Blanco / negro",
+        "volume": null,
+        "concentration": null,
+        "price": 90,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/OutOfStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/nike-blazer-low-77-jumbo-3564?attribute_values=151,560"
+      },
+      {
+        "id": "3564-3",
+        "reference": "Nike DQ1470-101/42",
+        "size": "42",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 42/ 27CM",
+        "color": "Blanco / negro",
+        "volume": null,
+        "concentration": null,
+        "price": 90,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/OutOfStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/nike-blazer-low-77-jumbo-3564?attribute_values=151,567"
+      },
+      {
+        "id": "3564-4",
+        "reference": "Nike DQ1470-101/42.5",
+        "size": "42.5",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 42.5/ 27.5CM",
+        "color": "Blanco / negro",
+        "volume": null,
+        "concentration": null,
+        "price": 90,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/OutOfStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/nike-blazer-low-77-jumbo-3564?attribute_values=151,566"
+      }
+    ]
+  },
+  {
+    "id": "2748",
+    "category": "calzado",
+    "name": "Air Max 1 Blanco Alabastro",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/nike-air-max-1-blanco-alabastro-2748",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/2985/image_1920?unique=6d2dfe9",
+    "observedAt": "2026-11-18",
+    "brand": "Nike",
+    "sourceName": "Nike Air Max 1 Blanco Alabastro",
+    "image": "/assets/products/product-2748.webp",
+    "variants": [
+      {
+        "id": "2748-1",
+        "reference": "Nike DZ2628-108/38.5",
+        "size": "38.5",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 38.5/ 24.5CM",
+        "color": "Blanco alabastro",
+        "volume": null,
+        "concentration": null,
+        "price": 90,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/nike-air-max-1-blanco-alabastro-2748?attribute_values=151,554"
+      },
+      {
+        "id": "2748-2",
+        "reference": "Nike DZ2628-108/40",
+        "size": "40",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 40/ 25.5CM",
+        "color": "Blanco alabastro",
+        "volume": null,
+        "concentration": null,
+        "price": 90,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/OutOfStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/nike-air-max-1-blanco-alabastro-2748?attribute_values=151,561"
+      },
+      {
+        "id": "2748-3",
+        "reference": "Nike DZ2628-108/43",
+        "size": "43",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 43/ 28CM",
+        "color": "Blanco alabastro",
+        "volume": null,
+        "concentration": null,
+        "price": 90,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/OutOfStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/nike-air-max-1-blanco-alabastro-2748?attribute_values=151,643"
+      }
+    ]
+  },
+  {
+    "id": "6231",
+    "category": "calzado",
+    "name": "Palermo White Black Gum",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/puma-396464-01-puma-palermo-white-black-gum-6231",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7113/image_1920?unique=f2edf38",
+    "observedAt": "2026-11-18",
+    "brand": "Puma",
+    "sourceName": "Puma Palermo White Black Gum",
+    "image": "/assets/products/product-6231.webp",
+    "variants": [
+      {
+        "id": "6231-1",
+        "reference": "Puma 396464-01",
+        "size": "45",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 45/ 29.5CM",
+        "color": "Blanco / negro / goma",
+        "volume": null,
+        "concentration": null,
+        "price": 80,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/puma-396464-01-puma-palermo-white-black-gum-6231?attribute_values=153,655"
+      }
+    ]
+  },
+  {
+    "id": "6230",
+    "category": "calzado",
+    "name": "Palermo LTH Prime Low Black",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/puma-palermo-lth-prime-low-black-6230",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7130/image_1920?unique=8022828",
+    "observedAt": "2026-11-18",
+    "brand": "Puma",
+    "sourceName": "Puma Palermo LTH Prime Low Black",
+    "image": "/assets/products/product-6230.webp",
+    "variants": [
+      {
+        "id": "6230-1",
+        "reference": "Puma 396464-03/42",
+        "size": "42",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 42/ 27CM",
+        "color": "Negro",
+        "volume": null,
+        "concentration": null,
+        "price": 80,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/puma-palermo-lth-prime-low-black-6230?attribute_values=153,567"
+      },
+      {
+        "id": "6230-2",
+        "reference": "Puma 396464-03/45",
+        "size": "45",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 45/ 29.5CM",
+        "color": "Negro",
+        "volume": null,
+        "concentration": null,
+        "price": 80,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/puma-palermo-lth-prime-low-black-6230?attribute_values=153,655"
+      }
+    ]
+  },
+  {
+    "id": "6228",
+    "category": "calzado",
+    "name": "Court Classic Lux Suede White Feather",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/puma-395087-12-puma-court-classic-lux-suede-white-feather-6228",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7110/image_1920?unique=9b56927",
+    "observedAt": "2026-11-18",
+    "brand": "Puma",
+    "sourceName": "Puma Court Classic Lux Suede White Feather",
+    "image": "/assets/products/product-6228.webp",
+    "variants": [
+      {
+        "id": "6228-1",
+        "reference": "Puma 395087-12",
+        "size": "42",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 42/ 27CM",
+        "color": "Blanco feather",
+        "volume": null,
+        "concentration": null,
+        "price": 70,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/puma-395087-12-puma-court-classic-lux-suede-white-feather-6228?attribute_values=153,567"
+      }
+    ]
+  },
+  {
+    "id": "6507",
+    "category": "calzado",
+    "name": "Softride Enzo 5 Black Pink Pixel",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/calzado-1/puma-311213-15-puma-softride-enzo-5-black-pink-pixel-6507",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7446/image_1920?unique=8790246",
+    "observedAt": "2026-11-18",
+    "brand": "Puma",
+    "sourceName": "Puma Softride Enzo 5 Black Pink Pixel",
+    "image": "/assets/products/product-6507.webp",
+    "variants": [
+      {
+        "id": "6507-1",
+        "reference": "Puma 311213-15",
+        "size": "41",
+        "sizeSystem": "EU",
+        "sourceSizeLabel": "EU 41/ 26.5CM",
+        "color": "Negro / rosado",
+        "volume": null,
+        "concentration": null,
+        "price": 70,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/puma-311213-15-puma-softride-enzo-5-black-pink-pixel-6507?attribute_values=153,564"
+      }
+    ]
+  },
+  {
+    "id": "3351",
+    "category": "disenador",
+    "name": "Naxos",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/xerjoff-naxos-edp-100-ml-3351",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/3699/image_1920?unique=4b77401",
+    "observedAt": "2026-11-18",
+    "brand": "Xerjoff",
+    "sourceName": "Xerjoff Naxos EDP 100 ML",
+    "image": "/assets/products/product-3351.webp",
+    "variants": [
+      {
+        "id": "3351-1",
+        "reference": "Odoo 3351",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 100,
+        "concentration": "Eau de parfum",
+        "price": 300,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/xerjoff-naxos-edp-100-ml-3351?attribute_values=728"
+      }
+    ]
+  },
+  {
+    "id": "6345",
+    "category": "disenador",
+    "name": "MYSLF Le Parfum",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/myslf-yves-saint-laurent-le-parfum-100-ml-6345",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7268/image_1920?unique=6f82756",
+    "observedAt": "2026-11-18",
+    "brand": "Yves Saint Laurent",
+    "sourceName": "MYSLF Yves Saint Laurent Le Parfum 100 ML",
+    "image": "/assets/products/product-6345.webp",
+    "variants": [
+      {
+        "id": "6345-1",
+        "reference": "Odoo 6345",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 100,
+        "concentration": "Parfum",
+        "price": 195,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/OutOfStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/myslf-yves-saint-laurent-le-parfum-100-ml-6345?attribute_values=720"
+      }
+    ]
+  },
+  {
+    "id": "4304",
+    "category": "disenador",
+    "name": "Uomo Born in Roma Extradose",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/valentino-uomo-born-in-roma-extradose-parfum-100ml-4304",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/4894/image_1920?unique=970812d",
+    "observedAt": "2026-11-18",
+    "brand": "Valentino",
+    "sourceName": "Valentino Uomo Born In Roma Extradose PARFUM 100ML",
+    "image": "/assets/products/product-4304.webp",
+    "variants": [
+      {
+        "id": "4304-1",
+        "reference": "Odoo 4304",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 100,
+        "concentration": "Parfum",
+        "price": 180,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/valentino-uomo-born-in-roma-extradose-parfum-100ml-4304?attribute_values=726"
+      }
+    ]
+  },
+  {
+    "id": "6327",
+    "category": "disenador",
+    "name": "Uomo Born in Roma Purple Melancholia",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/valentino-uomo-born-in-roma-purple-melancholia-edt-100-ml-6327",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7250/image_1920?unique=ae24e4b",
+    "observedAt": "2026-11-18",
+    "brand": "Valentino",
+    "sourceName": "Valentino Uomo Born in Roma Purple Melancholia EDT 100 ML",
+    "image": "/assets/products/product-6327.webp",
+    "variants": [
+      {
+        "id": "6327-1",
+        "reference": "Odoo 6327",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 100,
+        "concentration": "Eau de toilette",
+        "price": 180,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/valentino-uomo-born-in-roma-purple-melancholia-edt-100-ml-6327?attribute_values=726"
+      }
+    ]
+  },
+  {
+    "id": "3350",
+    "category": "disenador",
+    "name": "Paradoxe",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/prada-paradoxe-edp-100-ml-3350",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/3698/image_1920?unique=3159633",
+    "observedAt": "2026-11-18",
+    "brand": "Prada",
+    "sourceName": "Prada Paradoxe EDP 100 ML",
+    "image": "/assets/products/product-3350.webp",
+    "variants": [
+      {
+        "id": "3350-1",
+        "reference": "Odoo 3350",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 100,
+        "concentration": "Eau de parfum",
+        "price": 170,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/prada-paradoxe-edp-100-ml-3350?attribute_values=730"
+      }
+    ]
+  },
+  {
+    "id": "1583",
+    "category": "disenador",
+    "name": "Homme Intense",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/dior-homme-intense-100ml-edp-m-1583",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/1771/image_1920?unique=5932ea3",
+    "observedAt": "2026-11-18",
+    "brand": "Dior",
+    "sourceName": "DIOR HOMME INTENSE 100ML EDP M",
+    "image": "/assets/products/product-1583.webp",
+    "variants": [
+      {
+        "id": "1583-1",
+        "reference": "Odoo 1583",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 100,
+        "concentration": "Eau de parfum",
+        "price": 170,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/OutOfStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/dior-homme-intense-100ml-edp-m-1583?attribute_values=733"
+      }
+    ]
+  },
+  {
+    "id": "6344",
+    "category": "disenador",
+    "name": "Libre",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/yves-saint-laurent-libre-edp-90-ml-6344",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7267/image_1920?unique=51aa515",
+    "observedAt": "2026-11-18",
+    "brand": "Yves Saint Laurent",
+    "sourceName": "Yves Saint Laurent Libre EDP 90 ML",
+    "image": "/assets/products/product-6344.webp",
+    "variants": [
+      {
+        "id": "6344-1",
+        "reference": "Odoo 6344",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 90,
+        "concentration": "Eau de parfum",
+        "price": 170,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/yves-saint-laurent-libre-edp-90-ml-6344?attribute_values=720"
+      }
+    ]
+  },
+  {
+    "id": "4312",
+    "category": "disenador",
+    "name": "Instant Crush",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/mancera-instant-crush-edp-120-ml-4312",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/4902/image_1920?unique=0c91487",
+    "observedAt": "2026-11-18",
+    "brand": "Mancera",
+    "sourceName": "Mancera Instant Crush EDP 120 ML",
+    "image": "/assets/products/product-4312.webp",
+    "variants": [
+      {
+        "id": "4312-1",
+        "reference": "Odoo 4312",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 120,
+        "concentration": "Eau de parfum",
+        "price": 165,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/mancera-instant-crush-edp-120-ml-4312?attribute_values=762"
+      }
+    ]
+  },
+  {
+    "id": "6324",
+    "category": "disenador",
+    "name": "Cedrat Boise",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/mancera-cedrat-boise-edp-120-ml-6324",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/7247/image_1920?unique=6ef038b",
+    "observedAt": "2026-11-18",
+    "brand": "Mancera",
+    "sourceName": "Mancera Cedrat Boise EDP 120 ML",
+    "image": "/assets/products/product-6324.webp",
+    "variants": [
+      {
+        "id": "6324-1",
+        "reference": "Odoo 6324",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 120,
+        "concentration": "Eau de parfum",
+        "price": 160,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/mancera-cedrat-boise-edp-120-ml-6324?attribute_values=762"
+      }
+    ]
+  },
+  {
+    "id": "2793",
+    "category": "disenador",
+    "name": "Uomo Born in Roma Intense",
+    "sourceUrl": "https://aleph-zero.odoo.com/shop/perfumes-disenador-nicho-7/valentino-uomo-born-in-roma-intense-edp-100ml-2793",
+    "imageUrl": "https://aleph-zero.odoo.com/web/image/product.product/3035/image_1920?unique=d671a16",
+    "observedAt": "2026-11-18",
+    "brand": "Valentino",
+    "sourceName": "Valentino Uomo Born In Roma Intense EDP 100ML",
+    "image": "/assets/products/product-2793.webp",
+    "variants": [
+      {
+        "id": "2793-1",
+        "reference": "Odoo 2793",
+        "size": null,
+        "sizeSystem": null,
+        "sourceSizeLabel": null,
+        "color": null,
+        "volume": 100,
+        "concentration": "Eau de parfum",
+        "price": 170,
+        "currency": "USD",
+        "availability": "confirmar",
+        "observedAvailability": "https://schema.org/InStock",
+        "sourceUrl": "https://aleph-zero.odoo.com/shop/valentino-uomo-born-in-roma-intense-edp-100ml-2793?attribute_values=726"
+      }
+    ]
+  }
+]

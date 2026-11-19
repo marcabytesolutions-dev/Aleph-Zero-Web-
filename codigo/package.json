@@ -9,7 +9,7 @@
     "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
     "test": "node --test tests/domain.test.js tests/commerce.test.js",
     "test:e2e": "playwright test --config playwright.premium.config.js",
-    "check": "node --check src/premium.js && node --check src/commerce.js && node --check src/domain.js"
+    "check": "node --check src/app.js && node --check src/lib/commerce.js && node --check src/lib/domain.js"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1",

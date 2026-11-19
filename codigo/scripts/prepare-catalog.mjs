@@ -23,7 +23,7 @@ for(const row of manifest){
     observedAvailability:v.offers?.availability||null,
     sourceUrl:v.url||row.sourceUrl,
   }));
-  products.push({...row,brand:brands[row.id],name:names[row.id]||row.name.replace(brands[row.id]+' ',''),sourceName:row.name,image:`/images/product-${row.id}.webp`,variants});
+  products.push({...row,brand:brands[row.id],name:names[row.id]||row.name.replace(brands[row.id]+' ',''),sourceName:row.name,image:`/assets/products/product-${row.id}.webp`,variants});
 }
-await writeFile('src/catalog.json',JSON.stringify(products,null,2)+'\n');
+await writeFile('src/data/catalog.json',JSON.stringify(products,null,2)+'\n');
 console.log(`Catálogo: ${products.length} productos; moneda documentada en JSON-LD; existencias no sincronizadas.`);

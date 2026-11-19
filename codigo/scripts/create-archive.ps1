@@ -2,7 +2,7 @@ $ErrorActionPreference='Stop'
 Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 $deliveryRoot=(Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..\..')).Path
-if((Split-Path -Leaf $deliveryRoot) -ne 'Pagina Web'){throw 'Raíz de entrega inesperada'}
+if((Split-Path -Leaf $deliveryRoot) -ne 'Aleph-Zero-Web-'){throw 'Raíz de entrega inesperada'}
 $archivePath=Join-Path $deliveryRoot 'Aleph-Zero-web-completa.zip'
 if(Test-Path -LiteralPath $archivePath){throw 'El ZIP ya existe; no se sobrescribe automáticamente'}
 $files=Get-ChildItem -LiteralPath $deliveryRoot -File -Recurse -Force | Where-Object {
@@ -26,7 +26,7 @@ try{
     $outside=(Get-FileHash -LiteralPath $filePath -Algorithm SHA256).Hash
     if($inside -ne $outside){throw "Archivo diferente en ZIP: $($entry.FullName)"}
   }
-  foreach($required in @('index.html','ABRIR WEB.html','web/index.html','web/app.iife.js','web/styles.css','codigo/package.json','codigo/src/catalog.json')){
+  foreach($required in @('index.html','ABRIR WEB.html','web/index.html','web/app.iife.js','web/styles.css','codigo/package.json','codigo/src/data/catalog.json')){
     if(-not $archive.GetEntry($required)){throw "Falta archivo esencial: $required"}
   }
   $count=$archive.Entries.Count

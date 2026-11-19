@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import products from '../src/catalog.json' with {type:'json'};
-import {filterProducts,sanitizeSelection,selectionLines,totalsFor,buildMessage,priceLabel,variantLabel} from '../src/domain.js';
+import products from '../src/data/catalog.json' with {type:'json'};
+import {filterProducts,sanitizeSelection,selectionLines,totalsFor,buildMessage,priceLabel,variantLabel} from '../src/lib/domain.js';
 test('búsqueda por nombre y marca, filtros combinados y orden',()=>{
-  assert.equal(filterProducts(products,{q:'VERSACE'}).length,1);
-  assert.equal(filterProducts(products,{category:'calzado',brand:'Reebok',size:'39',price:'75'}).length,1);
-  assert.equal(filterProducts(products,{category:'arabes',volume:'100',concentration:'Eau de parfum',price:'50'}).length,3);
+  assert.equal(filterProducts(products,{q:'XERJOFF'}).length,1);
+  assert.equal(filterProducts(products,{category:'calzado',brand:'Reebok',size:'45.5',price:'70'}).length,1);
+  assert.equal(filterProducts(products,{category:'disenador',volume:'120',concentration:'Eau de parfum',price:'165'}).length,2);
   assert.equal(filterProducts(products,{q:'inexistente'}).length,0);
   const sorted=filterProducts(products,{sort:'price-desc'});
   assert.equal(sorted[0].brand,'Xerjoff');
@@ -31,9 +31,9 @@ test('mensaje completo con referencias, variantes, enlace y subtotal parcial',()
   const unknown=[{...lines[0],variant:{...lines[0].variant,price:null}}];
   assert.match(buildMessage(unknown),/No hay un total completo/);
   assert.doesNotMatch(buildMessage(unknown),/0,00 USD/);
-  assert.equal(variantLabel(products.find(p=>p.id==='3656').variants[0]),'90 ml · Parfum');
+  assert.equal(variantLabel(products.find(p=>p.id==='6344').variants[0]),'90 ml · Eau de parfum');
 });
-test('integridad y trazabilidad de muestra, sin existencias inventadas',()=>{
-  assert.equal(products.length,10);assert.equal(products.filter(p=>p.category==='calzado').length,4);
-  for(const p of products){assert.ok(p.sourceUrl.startsWith('https://aleph-zero.odoo.com/shop/'));assert.equal(p.observedAt,'2026-11-14');for(const v of p.variants){assert.equal(v.availability,'confirmar');assert.equal(v.currency,'USD');assert.ok(v.sourceUrl);}}
+test('integridad y trazabilidad de 10 calzados y 10 perfumes oficiales',()=>{
+  assert.equal(products.length,20);assert.equal(products.filter(p=>p.category==='calzado').length,10);assert.equal(products.filter(p=>p.category!=='calzado').length,10);
+  for(const p of products){assert.ok(p.sourceUrl.startsWith('https://aleph-zero.odoo.com/shop/'));assert.equal(p.observedAt,'2026-11-18');for(const v of p.variants){assert.equal(v.availability,'confirmar');assert.equal(v.currency,'USD');assert.ok(v.sourceUrl);}}
 });

@@ -71,7 +71,7 @@ test('búsqueda, filtros combinados, orden, limpieza y ruta inválida',async({pa
 });
 test('estados de error de imagen, almacenamiento corrupto y teclado',async({page})=>{
   await page.addInitScript(()=>localStorage.setItem('aleph-zero-selection-v1','corrupto'));
-  await page.route('**/images/product-3656.webp',route=>route.abort());
+  await page.route('**/assets/products/product-3656.webp',route=>route.abort());
   // El fallo de carga provocado no debe convertirse en un error de aplicación.
   page.removeAllListeners('console');
   await page.goto('/#/producto/3656');

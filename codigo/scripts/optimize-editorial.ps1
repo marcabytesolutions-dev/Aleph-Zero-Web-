@@ -1,5 +1,5 @@
 Add-Type -AssemblyName System.Drawing
-$imageDir = Join-Path $PSScriptRoot '../public/images'
+$imageDir = Join-Path $PSScriptRoot '../public/assets/hero'
 $codec = [System.Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object MimeType -eq 'image/jpeg'
 $parameters = New-Object System.Drawing.Imaging.EncoderParameters(1)
 $parameters.Param[0] = New-Object System.Drawing.Imaging.EncoderParameter([System.Drawing.Imaging.Encoder]::Quality, 85L)

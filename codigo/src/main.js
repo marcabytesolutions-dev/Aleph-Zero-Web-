@@ -1,1 +1,1 @@
-import './premium.js';
+import './app.js';

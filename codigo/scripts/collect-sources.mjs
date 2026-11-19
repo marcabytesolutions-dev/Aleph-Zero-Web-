@@ -10,9 +10,9 @@ for (const [category, count] of [['calzado',4], ['disenador',3], ['arabes',3]]) 
     rows.push({id,category,name:decode(m[2]),sourceUrl:base+path,imageUrl:base+decode(m[3]),observedAt:'2026-11-14'});
   }
 }
-await mkdir('public/images', {recursive:true});
+await mkdir('public/assets/products', {recursive:true});
 for (const row of rows) {
-  for (const [url,path] of [[row.sourceUrl,`docs/sources/product-${row.id}.html`],[row.imageUrl,`public/images/product-${row.id}.webp`]]) {
+  for (const [url,path] of [[row.sourceUrl,`docs/sources/product-${row.id}.html`],[row.imageUrl,`public/assets/products/product-${row.id}.webp`]]) {
     const response=await fetch(url);
     if(!response.ok) throw new Error(`${response.status}: ${url}`);
     await writeFile(path,Buffer.from(await response.arrayBuffer()));

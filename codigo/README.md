@@ -1,36 +1,33 @@
-# ALEPH ZERO · Rediseño premium local
+# Código activo · Aleph Zero
 
-Entrega del 18/11/2026. Abre `ABRIR WEB.html` desde la carpeta `Pagina Web` con doble clic. Mantén junto a este archivo la carpeta `web`; no necesita instalación ni servidor. Los accesos a WhatsApp y redes sí requieren internet.
+## Estructura
 
-Incluye portada principal y categorías, diez productos con filtros y fichas, carrito persistente, checkout y solicitud preparada para WhatsApp. Existencias simuladas y precios de muestra del 14/11/2026. No confirma pedidos ni realiza pagos.
-
-## Desarrollo
-
-Desde `Pagina Web/codigo`:
-
-```powershell
-npm install
-npm run dev
+```text
+src/
+  main.js              Entrada de Vite
+  app.js               Interfaz, rutas y eventos
+  data/catalog.json    Catálogo de muestra
+  lib/                  Comercio, configuración y dominio
+  styles/app.css       Sistema visual 60/30/10
+public/
+  assets/brand/         Logotipo
+  assets/hero/          Portadas desktop y móvil aprobadas
+  assets/icons/         Iconos optimizados de interfaz
+  assets/products/      Fotografías del catálogo
+scripts/                Preparación, optimización y empaquetado
+tests/                  Pruebas unitarias y de navegador
+docs/                   Evidencias técnicas y legado
 ```
 
-Con las dependencias locales existentes basta `npm run dev`. Abre http://localhost:4188 .
+## Comandos
 
 ```powershell
+npm run dev
 npm run check
 npm test
 npm run build
 npm run test:e2e
 ```
 
-El build actualiza `codigo/dist`, `web`, `ABRIR WEB.html` e `index.html`. La suite de navegador usa Microsoft Edge local y el puerto 4188 (debe estar libre).
-
-## Archivos
-
-- Código activo: `codigo/src/premium.js`, `premium.css`, `commerce.js`, `domain.js` y `catalog.json`.
-- Recursos nuevos: `codigo/public/images/hero-*`. JPEG optimizados utilizados, PNG maestros conservados.
-- Documentación vigente: `docs/AUDITORIA.md`, `DISENO.md`, `ARQUITECTURA.md`, `PENDIENTES.md`, `PRUEBAS.md`.
-- Evidencias: `codigo/docs/checks/premium-results.json` y `screenshots/premium-*.png`.
-- Implementación anterior: `codigo/docs/main-anterior.js`. Documentos y ZIP anteriores se conservan como históricos y no describen esta entrega.
-
-Los datos de contacto se obtuvieron de la web oficial. Precios y stock deben confirmarse con el negocio. No se publicó la web ni se enviaron mensajes de prueba.
+La carpeta `web/` situada un nivel arriba es una salida generada. Las imágenes maestras y referencias no usadas en producción están fuera de `public`, dentro de `referencias/`.
 

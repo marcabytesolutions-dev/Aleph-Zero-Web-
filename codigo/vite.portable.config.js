@@ -3,7 +3,7 @@ export default defineConfig({
   base:'./',
   build:{
     outDir:'../web',
-    emptyOutDir:false,
+    emptyOutDir:true,
     lib:{entry:'src/main.js',name:'AlephZero',formats:['iife'],fileName:'app',cssFileName:'styles'},
   },
 });
