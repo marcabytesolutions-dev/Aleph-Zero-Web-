@@ -15,7 +15,7 @@ Se crearon cuatro imágenes originales con la herramienta integrada ImageGen. Lo
 
 Archivos de escritorio: `codigo/public/assets/hero/hero-{editorial,calzado,perfumes}.jpg`.
 
-Archivos móviles: `codigo/public/assets/hero/hero-mobile.png`, `hero-calzado-mobile.png` y `hero-perfumes-mobile.png`.
+Archivos móviles optimizados: `codigo/public/assets/hero/hero-mobile.jpg`, `hero-calzado-mobile.jpg` y `hero-perfumes-mobile.jpg`.
 
 Adaptación: navegación móvil desplegable; carrito modal lateral, filtros plegables; grids de 2 productos en móvil; guía vertical; formularios de una columna. Focus visible, navegación por teclado y Escape nativo en modales. Movimiento reducido respetado; efectos de elevación y transiciones sin librerías.
 

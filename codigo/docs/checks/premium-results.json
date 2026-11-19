@@ -122,12 +122,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6064,
+                  "duration": 33124,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T03:31:13.950Z",
+                  "startTime": "2026-11-19T05:44:23.859Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -156,12 +156,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1693,
+                  "duration": 1269,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T03:31:20.457Z",
+                  "startTime": "2026-11-19T05:44:57.569Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -171,7 +171,7 @@
           ],
           "id": "394eb566a87dc7306254-2dce36b34fa8d8c39aa1",
           "file": "premium.spec.js",
-          "line": 25,
+          "line": 26,
           "column": 1
         },
         {
@@ -190,12 +190,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3712,
+                  "duration": 3668,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T03:31:22.176Z",
+                  "startTime": "2026-11-19T05:44:58.850Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -205,7 +205,7 @@
           ],
           "id": "394eb566a87dc7306254-6961598ea1ef469fb66d",
           "file": "premium.spec.js",
-          "line": 28,
+          "line": 29,
           "column": 1
         },
         {
@@ -224,12 +224,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 637,
+                  "duration": 718,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T03:31:25.901Z",
+                  "startTime": "2026-11-19T05:45:02.535Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -239,7 +239,7 @@
           ],
           "id": "394eb566a87dc7306254-80c180055cbd1faeabb8",
           "file": "premium.spec.js",
-          "line": 32,
+          "line": 33,
           "column": 1
         },
         {
@@ -258,12 +258,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 804,
+                  "duration": 762,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T03:31:26.553Z",
+                  "startTime": "2026-11-19T05:45:03.273Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -273,7 +273,7 @@
           ],
           "id": "394eb566a87dc7306254-4eee2934e34426a6fa94",
           "file": "premium.spec.js",
-          "line": 40,
+          "line": 41,
           "column": 1
         },
         {
@@ -292,12 +292,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1012,
+                  "duration": 643,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T03:31:27.376Z",
+                  "startTime": "2026-11-19T05:45:04.045Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -307,7 +307,7 @@
           ],
           "id": "394eb566a87dc7306254-72a2570ea64efebbe6fc",
           "file": "premium.spec.js",
-          "line": 48,
+          "line": 49,
           "column": 1
         },
         {
@@ -326,12 +326,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2645,
+                  "duration": 2525,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T03:31:28.403Z",
+                  "startTime": "2026-11-19T05:45:04.697Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -341,7 +341,7 @@
           ],
           "id": "394eb566a87dc7306254-5c67bc30f4a7bcc144d4",
           "file": "premium.spec.js",
-          "line": 57,
+          "line": 58,
           "column": 1
         },
         {
@@ -360,12 +360,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 504,
+                  "duration": 704,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T03:31:31.064Z",
+                  "startTime": "2026-11-19T05:45:07.237Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -375,7 +375,7 @@
           ],
           "id": "394eb566a87dc7306254-120f830aa338897401b8",
           "file": "premium.spec.js",
-          "line": 71,
+          "line": 72,
           "column": 1
         }
       ]
@@ -383,8 +383,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-19T03:31:12.380Z",
-    "duration": 20048.887,
+    "startTime": "2026-11-19T05:44:20.918Z",
+    "duration": 48264.945,
     "expected": 8,
     "skipped": 0,
     "unexpected": 0,

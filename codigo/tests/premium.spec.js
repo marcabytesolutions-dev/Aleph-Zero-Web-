@@ -7,6 +7,7 @@ test('rutas, imágenes y diseño responsive',async({page})=>{
   for(const route of ['/','/calzado','/perfumes','/como-comprar','/sobre-nosotros','/contacto','/redes-sociales','/catalogo','/producto/6511']){
    await page.goto('/#'+route);
    await expect(page.locator('main h1')).toBeVisible();
+   for(const img of await page.locator('main img[loading="lazy"]').all())await img.scrollIntoViewIfNeeded();
    await page.locator('main img').evaluateAll(async imgs=>{await Promise.all(imgs.map(img=>img.decode().catch(()=>{})));});
    const sizes=await page.evaluate(()=>({
     page:document.documentElement.scrollWidth,

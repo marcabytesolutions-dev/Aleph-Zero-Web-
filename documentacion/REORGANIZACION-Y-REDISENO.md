@@ -9,7 +9,7 @@ La salida de doble clic se regenera con `npm run build`. `web/` no debe editarse
 ## Portadas aprobadas
 
 - Escritorio: `hero-editorial.jpg`, `hero-calzado.jpg` y `hero-perfumes.jpg`.
-- Móvil: `hero-mobile.png`, `hero-calzado-mobile.png` y `hero-perfumes-mobile.png`.
+- Móvil: `hero-mobile.jpg`, `hero-calzado-mobile.jpg` y `hero-perfumes-mobile.jpg` (misma resolución, compresión optimizada).
 
 Las imágenes se muestran completas con `object-fit: contain` y relaciones 3:2 en escritorio y 2:3 en móvil. El texto ocupa las áreas oscuras disponibles y el encabezado se integra mediante transparencia. El movimiento se limita a variaciones de luz y brillo; no hay botón de animación y se desactiva con la preferencia de movimiento reducido.
 
